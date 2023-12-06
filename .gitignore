@@ -1,0 +1,61 @@
+# Ignore Mac system files
+.DS_store
+
+
+# Ignore Figs folder
+SAVE_FIGS
+*.fig
+*.pdf
+# Ignore save data folder
+SAVE_DATA
+*.asv
+*.csv
+*.xlsx
+*.zip
+*.mat
+# Ignore all text files
+*.txt
+*.dat
+*.docx
+*.doc
+*.pptx
+
+
+# Ignore all figure files
+*.jpg
+*.jpeg
+*.emf
+*.eps
+*.png
+
+# Ignore all job related files
+*.CMP
+*.dbb
+*.db
+*.dmp
+*.DSP
+*.emat
+*.err
+*.esav
+*.full
+*.ldhi
+*.lock
+*.log
+*.mlv
+*.mntr
+*.mode
+*.page
+*.r001
+*.rdb
+*.rst
+*.stat
+*.tmp
+
+zobname*.*
+ansuitmp
+F_para
+# Ignore files related to API keys
+.env
+
+# Ignore SASS config files
+.sass-cache
