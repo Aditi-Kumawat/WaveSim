@@ -83,6 +83,8 @@ for i=1:length(t_vect)
     % u_zz_t_vect_hmg(:,i)=I_hmg.';
     display(strcat('t=',num2str(t),'s'));
 end
+
+%% Wald validation
 factr=100;
 figure;
 subplot(3,1,1);
