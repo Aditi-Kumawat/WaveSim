@@ -1,3 +1,16 @@
+%%
+% This MATLAB code simulates seismic ground motion by calculating the seismic 
+% response of a soil medium to an earthquake. It sets up initial parameters, 
+% including distances, strike, dip, slip angles, and seismic moment magnitude. 
+% The frequency range is defined, and the source spectral amplitude is computed. 
+% For each distance, Green's functions are loaded and transformed to the 
+% azimuthal coordinate system to compute displacement Green's functions. These 
+% functions are then used to calculate velocity time histories for different 
+% components. Finally, the code plots the simulated velocities and maximum 
+% velocities against distance, providing a comprehensive analysis of seismic 
+% responses at various distances from the source.
+
+%%
 clear;clc;close all
 
 % Initial setup

@@ -1,3 +1,14 @@
+%% 
+% This MATLAB code simulates the seismic response of a layered medium and
+% evaluates the results using two different test setups. It initializes the 
+% necessary parameters for the medium and sets up the inversion function for
+% 2x2 matrices. The code then defines a radial distance and frequency, and
+% specifies the forces applied. It runs two test setups to evaluate the 
+% seismic response by varying the k-vector range (frequency wavenumber) and 
+% the number of laps (iterations). In both tests, it computes the response 
+% matrices and integrates the results to find the cumulative seismic response. 
+% Finally, the code compares the results of the two tests to assess consistency.
+
 clear; clc;
 [alpha_vect,beta_vect,h_vect,JL,mu_vect,N,...
     alpha_L1,beta_L1,mu_L1,h_L1]=fns_inptMatPara.layer_para_Poing;
