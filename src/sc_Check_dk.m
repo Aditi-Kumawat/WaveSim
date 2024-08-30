@@ -1,4 +1,4 @@
-%% 
+%% Check delta k convergence
 % This MATLAB code simulates the seismic response of a layered medium and
 % evaluates the results using two different test setups. It initializes the 
 % necessary parameters for the medium and sets up the inversion function for
