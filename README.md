@@ -16,7 +16,7 @@ The P, SV, and SH amplitudes are defined for each layer, and boundary conditions
 ## Code Running Sequence (Located in `/src`)
 
 1. **`sc_save_fSRT_ll.m`**:
-   - Generates and saves soil medium and source-depth dependent parameters $f_{SS}$, $f_{SR}$, $f_{RS}$, $f_{RR}$, and $f_{TT}$ (Equation 41) and $f'_{SS}$, $f'_{SR}$, $f'_{RS}$, $f'_{RR}$, and $f'_{TT}$ (in Appendix).
+   - Generates and saves soil medium and source-depth dependent parameters $f_{SS}$, $f_{SR}$, $f_{RS}$, $f_{RR}$, and $f_{TT}$ (Equation 41) and their derivatives (in Appendix).
 
 
 2. **`sc_save_I_paras.m`**:
