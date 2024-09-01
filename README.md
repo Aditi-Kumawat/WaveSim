@@ -1,4 +1,4 @@
-# Source_Wavefield_Simulation
+# WaveSim
 
 ## Overview
 This project generates synthetic ground motions for a 1D soil profile using a fast and simplified approach. The method idealizes the soil as an N+1 layered medium with an underlying half-space. Each layer is assumed to be elastic, homogeneous, and isotropic, with constant material properties across the layer, and free of body forces. The source is modeled as a strike-slip fault located in the jth layer.
